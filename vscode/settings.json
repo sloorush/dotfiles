@@ -1,0 +1,52 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.panel.defaultLocation": "right",
+  "C_Cpp.updateChannel": "Insiders",
+  // "terminal.integrated.shell.linux": "/bin/zsh",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorTheme": "Ayu Mirage",
+  "go.gopath": "/home/rush/go",
+  "go.goroot": "/usr/local/go",
+  "go.formatTool": "goformat",
+  "go.autocompleteUnimportedPackages": true,
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "dart.openDevTools": "flutter",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "go.toolsManagement.autoUpdate": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "workbench.startupEditor": "none",
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[java]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
+}
