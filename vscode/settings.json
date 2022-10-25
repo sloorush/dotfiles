@@ -14,7 +14,7 @@
   "C_Cpp.updateChannel": "Insiders",
   // "terminal.integrated.shell.linux": "/bin/zsh",
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "Ayu Mirage",
+  "workbench.colorTheme": "Ayu Mirage Bordered",
   "go.gopath": "/home/rush/go",
   "go.goroot": "/usr/local/go",
   "go.formatTool": "goformat",
@@ -26,7 +26,8 @@
       "source.organizeImports": true
     }
   },
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  // "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "Fira Code",
   "dart.openDevTools": "flutter",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "go.toolsManagement.autoUpdate": true,
@@ -40,7 +41,7 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.tabSize": 2,
+  "editor.tabSize": 4,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "[java]": {
@@ -49,11 +50,26 @@
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  "files.autoSave": "afterDelay",
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "[haskell]": {
+    "editor.defaultFormatter": "haskell.haskell"
+  },
+  "explorer.confirmDelete": false,
+  "bracketPairColorizer.depreciation-notice": false,
+  "haskell.serverExecutablePath": "/home/rush/Desktop/oss/haskell-language-server/dist-newstyle/build/x86_64-linux/ghc-9.2.2/haskell-language-server-1.8.0.0/x/haskell-language-server/build/haskell-language-server/haskell-language-server",
+
+  "haskell.formattingProvider": "stylish-haskell",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.autoSave": "afterDelay",
+  "security.workspace.trust.untrustedFiles": "open",
+  "[FortranFreeForm]": {
+    "editor.defaultFormatter": "fortran-lang.linter-gfortran"
   }
+  // "haskell.manageHLS": "GHCup"
 }
