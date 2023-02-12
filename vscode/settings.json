@@ -1,8 +1,5 @@
 {
   "workbench.iconTheme": "material-icon-theme",
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -70,6 +67,10 @@
   "security.workspace.trust.untrustedFiles": "open",
   "[FortranFreeForm]": {
     "editor.defaultFormatter": "fortran-lang.linter-gfortran"
-  }
-  // "haskell.manageHLS": "GHCup"
+  },
+    "apl.server.executablePath": "dyalog",
+    "apl.server.maxWS": "4G",
+    "apl.server.prefixCompleteCharacters": "`",
+    "notebook.lineNumbers": "on",
+    // "apl.server.wsPath": "/my/own/apl-language-server.dws"
 }

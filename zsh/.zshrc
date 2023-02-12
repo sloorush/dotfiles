@@ -129,6 +129,8 @@ alias grep='grep --color=auto'
 
 alias splitme='xrandr --output HDMI-0 --auto --left-of eDP-1-1'
 
+alias python310='/usr/bin/python3'
+
 [ -f "/home/rush/.ghcup/env" ] && source "/home/rush/.ghcup/env" # ghcup-env
 
 # bun completions
@@ -138,8 +140,14 @@ alias splitme='xrandr --output HDMI-0 --auto --left-of eDP-1-1'
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+# DOTNET - Required
+export PATH="$PATH:/home/YOUR_USER_NAME/.dotnet/tools"
+# DOTNET - Optional
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+export ASPNETCORE_ENVIRONMENT=Development
+
 # LLVM dev
-export LLVM_WORKDIR="$HOME/cdd/Desktop/oss/llvm-project"
+export LLVM_WORKDIR="$HOME/Desktop/oss/llvm-project"
 export PATH="$LLVM_WORKDIR/build/bin:$PATH"
 # arcanist
 export PATH="$PATH:/~/Desktop/oss/arcanist/bin/"
